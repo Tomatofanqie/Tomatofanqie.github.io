@@ -585,22 +585,22 @@ pre .javascript .function {
   padding: 0 2px;
 }
 .post-body .label.default {
-  background: #f1f1f1;
+  background: #f0f0f0;
 }
 .post-body .label.primary {
-  background: #f0e8f8;
+  background: #efe6f7;
 }
 .post-body .label.info {
-  background: #e6f3f8;
+  background: #e5f2f8;
 }
 .post-body .label.success {
-  background: #e8f5ea;
+  background: #e7f4e9;
 }
 .post-body .label.warning {
-  background: #fdf6e3;
+  background: #fcf6e1;
 }
 .post-body .label.danger {
-  background: #faeaec;
+  background: #fae8eb;
 }
 .post-body .tabs {
   margin-bottom: 20px;
@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #e053ff;
+  background: #ffccf9;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2584,8 +2584,11 @@ body {
   line-height: 2;
 }
 .content {
-  padding-top: 15px;
+  padding-top: 10px;
   opacity: 0.9;
+}
+.side {
+  padding-top: 10px;
 }
 .sidebar-inner {
   background: var(--content-bg-color);
